@@ -1,3 +1,5 @@
 const a = 1;
 const b = 2;
-export { a, b };
+console.log("a");
+
+// tsc filename.ts -w

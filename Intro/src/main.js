@@ -6,8 +6,14 @@
 const user = {
     name: "Yuki",
     age: 20,
+    getMessage() {
+        return `Hello, ${this.name}`;
+    },
 };
 const user2 = {
     name: "Barbaloot",
-    age: 21,
+    getMessage() {
+        return `Hello, ${this.name}`;
+    },
 };
+console.log(user2.getMessage());

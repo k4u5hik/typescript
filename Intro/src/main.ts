@@ -3,16 +3,23 @@
 // };
 // console.log(getFullName("Yuki", "Bunny"));
 
-interface User {
+interface IUser {
   name: string;
   age?: number; // ? means optional
+  getMessage(): string;
 }
 
-const user: User = {
+const user: IUser = {
   name: "Yuki",
   age: 20,
+  getMessage(): string {
+    return `Hello, ${this.name}`;
+  },
 };
-const user2: User = {
+const user2: IUser = {
   name: "Barbaloot",
-  age: 21,
+  getMessage(): string {
+    return `Hello, ${this.name}`;
+  },
 };
+console.log(user2.getMessage());

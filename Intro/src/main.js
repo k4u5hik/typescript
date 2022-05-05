@@ -1,13 +1,6 @@
 "use strict";
-// const getFullName = (name: string, surname: string): string => {
-//   return `${name} ${surname}`;
-// };
-// console.log(getFullName("Yuki", "Bunny"));
-const user = {
-    name: "Yuki",
-    age: 20,
-};
-const user2 = {
-    name: "Barbaloot",
-    age: 21,
-};
+function printCoord(pt) {
+    console.log("The coordinate's x value is " + pt.x);
+    console.log("The coordinate's y value is " + pt.y);
+}
+printCoord({ x: 100, y: 100 });

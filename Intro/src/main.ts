@@ -2,17 +2,14 @@
 //   return `${name} ${surname}`;
 // };
 // console.log(getFullName("Yuki", "Bunny"));
-
-interface User {
-  name: string;
-  age: number;
+interface Point {
+  x: number;
+  y: number;
 }
 
-const user: User = {
-  name: "Yuki",
-  age: 20,
-};
-const user2: User = {
-  name: "Barbaloot",
-  age: 21,
-};
+function printCoord(pt: Point) {
+  console.log("The coordinate's x value is " + pt.x);
+  console.log("The coordinate's y value is " + pt.y);
+}
+
+printCoord({ x: 100, y: 100 });

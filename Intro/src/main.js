@@ -1,4 +1,5 @@
-var getFullName = function (name, surname) {
-    return "".concat(name, " ").concat(surname);
+"use strict";
+const getFullName = (name, surname) => {
+    return `${name} ${surname}`;
 };
 console.log(getFullName("Mooshoo", "Bunny"));

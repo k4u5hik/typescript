@@ -2,4 +2,4 @@
 const getFullName = (name, surname) => {
     return `${name} ${surname}`;
 };
-console.log(getFullName("Mooshoo", "Bunny"));
+console.log(getFullName("Yuki", "Bunny"));

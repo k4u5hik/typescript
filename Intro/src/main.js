@@ -3,7 +3,7 @@
 //   return `${name} ${surname}`;
 // };
 // console.log(getFullName("Yuki", "Bunny"));
-const user = {
+const user1 = {
     name: "Yuki",
     age: 20,
     getMessage() {

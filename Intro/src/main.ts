@@ -9,7 +9,7 @@ interface IUser {
   getMessage(): string;
 }
 
-const user: IUser = {
+const user1: IUser = {
   name: "Yuki",
   age: 20,
   getMessage(): string {

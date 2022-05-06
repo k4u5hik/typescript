@@ -13,16 +13,17 @@ class User {
         return this.firstName + " " + this.lastName;
     }
 }
-class Admin extends User {
-    setEditor(editor) {
-        this.editor = editor;
-    }
-    getEditor() {
-        return this.editor;
-    }
-}
+// class Admin extends User {
+//   private editor: string;
+//   setEditor(editor: string): void {
+//     this.editor = editor;
+//   }
+//   getEditor(): string {
+//     return this.editor;
+//   }
+// }
 const user = new User("Animal", "Planet");
 console.log(user.getFullName());
 console.log(user.unchangeableString);
-const admin = new Admin("Foo", "Bar");
-console.log(admin.firstName);
+// const admin = new Admin("Foo", "Bar");
+// console.log(admin.firstName);

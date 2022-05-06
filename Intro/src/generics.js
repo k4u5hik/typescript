@@ -6,6 +6,16 @@ const addId = (obj) => {
 };
 const user5 = {
     name5: "Kaushik",
+    data: {
+        meta: "some meta",
+    },
+};
+const user6 = {
+    name5: "Madhura",
+    data: ["a", "b", "c"],
 };
 const result = addId(user5);
+console.log(user5);
 console.log(addId(user5));
+console.log(user6);
+console.log(addId(user6));
